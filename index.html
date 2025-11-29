@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joki Tugas Online</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f4f6f9;
+    }
+    header {
+        background: #3b82f6;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+        color: #333;
+        margin-top: 0;
+    }
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        background: #3b82f6;
+        padding: 12px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #2563eb;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        background: #111;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Joki Tugas Online</h1>
+    <p>Cepat • Murah • Terpercaya</p>
+</header>
+
+<div class="container">
+
+    <!-- Layanan -->
+    <div class="card">
+        <h2>Layanan yang Tersedia</h2>
+        <ul>
+            <li>Joki Tugas Sekolah (SD/SMP/SMA)</li>
+            <li>Joki Makalah & Artikel</li>
+            <li>Joki PowerPoint</li>
+            <li>Joki Coding / Web</li>
+            <li>Joki Excel & Laporan</li>
+        </ul>
+    </div>
+
+    <!-- Form -->
+    <div class="card">
+        <h2>Form Order</h2>
+        <form action="#" method="POST">
+
+            <label>Nama Anda</label>
+            <input type="text" placeholder="Tuliskan nama lengkap" required>
+
+            <label>No WhatsApp</label>
+            <input type="text" placeholder="Contoh: 08xxxx" required>
+
+            <label>Jenis Tugas</label>
+            <select required>
+                <option value="">-- Pilih Layanan --</option>
+                <option>Tugas Sekolah</option>
+                <option>Makalah</option>
+                <option>Artikel</option>
+                <option>PowerPoint</option>
+                <option>Coding</option>
+                <option>Excel / Laporan</option>
+                <option>Lainnya</option>
+            </select>
+
+            <label>Deadline</label>
+            <input type="date" required>
+
+            <label>Detail Tugas</label>
+            <textarea rows="5" placeholder="Jelaskan tugas yang ingin dijoki..." required></textarea>
+
+            <button type="submit">Kirim Order</button>
+        </form>
+    </div>
+
+    <!-- Kontak -->
+    <div class="card">
+        <h2>Hubungi Kami</h2>
+        <p>WhatsApp: <strong>08xxxxxxxxxx</strong></p>
+        <p>Email: <strong>orderjoki@gmail.com</strong></p>
+        <p>Instagram: <strong>@jokitugas.id</strong></p>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Joki Tugas Online. All rights reserved.
+</footer>
+
+</body>
+</html>
